@@ -1,5 +1,5 @@
 #!/bin/bash
-docker build -t meteorhacks/meteord:base ../base
-docker build -t meteorhacks/meteord:onbuild ../onbuild
-docker build -t meteorhacks/meteord:devbuild ../devbuild
-docker build -t meteorhacks/meteord:binbuild ../binbuild
+docker build -t urbanetic/meteord:base ../base
+docker build -t urbanetic/meteord:onbuild ../onbuild
+docker build -t urbanetic/meteord:devbuild ../devbuild
+docker build -t urbanetic/meteord:binbuild ../binbuild
